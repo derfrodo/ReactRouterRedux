@@ -4,14 +4,8 @@ import { push } from 'react-router-redux';
 
 import PinInput from './PinInput';
 
-// import {
-//     loadPostsRequest,
-//     loadPostsSuccess,
-//     loadPostsFailure
-// } from './actionCreators'
-
 // tslint:disable-next-line:no-any
-const About = (props: { dispatch: any; pinState: any; }) => {
+const About = (props: { dispatch: any; }) => {
     return (
         <div>
             <p>About is awesome! </p>
@@ -21,6 +15,4 @@ const About = (props: { dispatch: any; pinState: any; }) => {
     );
 };
 
-export default connect(state => ({
-    pinState: state.pinState,
-}))(About);
+export default connect(state => ({}))(About);
