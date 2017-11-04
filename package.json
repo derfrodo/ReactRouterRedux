@@ -1,0 +1,32 @@
+{
+  "name": "photo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/history": "^4.6.1",
+    "@types/jest": "^21.1.5",
+    "@types/node": "^8.0.47",
+    "@types/react": "^16.0.20",
+    "@types/react-dom": "^16.0.2",
+    "@types/react-redux": "^5.0.12",
+    "@types/react-router": "^4.0.16",
+    "@types/react-router-dom": "^4.2.0",
+    "@types/react-router-redux": "^4.0.51",
+    "react-scripts-ts": "2.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
